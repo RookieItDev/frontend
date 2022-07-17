@@ -13,7 +13,7 @@ const routes = [
     children: [
       {
         path:'',
-        component: Home
+        component: Home //การทำงาน children คือเอา component home ไปแปะกับ component frontendLayout
       }
     ]
   },
